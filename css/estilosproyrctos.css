@@ -1,0 +1,150 @@
+body {
+    background-color: #f5f5f5 !important; 
+  }
+:root{
+    --color-verdeoscuro: #568005;
+    --color-verde: #96C11F;
+    --color-testimonios: #f1ebdc;}
+
+/* Inicio de Navbar*/
+.navbar, img {
+    width: 2em;
+    background: none;
+    background-color: none;
+}
+
+.navbar-nav .nav-link   {
+    font-family: "Coustard", system-ui;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+.navbar-brand, a {
+    font-family: "Coustard", system-ui;
+    font-style: normal;   
+}
+.navbar-nav .nav-link.active {
+    color: #568005 !important; 
+    font-weight: bold; 
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000; 
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #4aaac0;
+  }
+
+/* Fin de Navbar*/
+
+/*Edición de imagen de fondo del navbar*/
+  .banner {
+    position: relative;
+    margin-top: -90px;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+    color: white;
+    filter: saturate(120%) blur(1px); /* Ajusta los valores según tus preferencias */
+  }
+
+  .banner .text-center {
+    position: absolute;
+    top: 20%;
+    z-index: 5;
+    max-width: 80%;
+  }
+  .card-text{
+    color: #000;
+  }
+  .banner, h2 ,p {
+    color: rgb(0, 0, 0);
+  }
+  .banner, h2 {
+    color: rgb(0, 0, 0);
+    font-family: "Coustard", system-ui;
+    font-style: normal;   
+  }
+/* fin Edición de imagen de fonfo del navbar*/ 
+
+/* Edición de Cards*/
+    .card-img-top {
+        border-radius: 100px 0 0 0 !important; }
+    .card-body {
+            background-color: #A4C153; 
+            border-radius: 0 0  100px 0; 
+            text-align: center; 
+            border: none;
+            color: #000;
+        }
+        .no-border {
+            border: none !important;
+          }
+    .card-title{
+        font-family: "Coustard", system-ui;
+        font-style: normal;   
+    }
+    .btn-primary {
+        background-color: #96C11F !important;;
+        border-radius: 30px !important;;
+        border: none!important;
+
+    }
+    .text-decoration-none {
+      color: rgb(255, 255, 255) !important;
+    }
+    .link {
+      color: rgb(0, 0, 0) !important;
+    }
+    .container-card {
+        padding-left: 1rem; 
+        padding-right: 1rem; 
+        margin-top: 90px;
+    }
+
+    .col-sm-12 {
+        padding-left: 0.5rem; 
+        padding-right: 0.5rem; 
+        margin: 30px 0;
+      }
+/* Fin Edición de Cards*/
+
+/*footer*/
+.footer {
+    background-color: #3e2723; 
+    padding: 20px 0;
+    color: white;
+    margin-top: 70px;
+  }
+  .footer .contenedor img {
+    max-width: 70px; 
+    max-height: 70px; 
+    margin: 0 10px; 
+  }
+  .footer .contenedor-dos {
+    margin-top: 10px; 
+  }
+  .footer .contenedor-dos .nav-item {
+    margin: 0 10px; 
+  }
+  .footer .contenedor-tres {
+    margin-top: 10px; 
+    font-size: 0.875rem; 
+  }
+  .footer ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: space-between; 
+}
+.footer .nav-link:hover {
+    color: #4aaac0; 
+  }
+
+.cafeo{
+    background-color: #211513;
+    color: white;
+    margin-top: -1px;
+}

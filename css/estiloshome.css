@@ -1,0 +1,166 @@
+body {
+    background-color: #f5f5f5 !important; 
+  }
+:root{
+    --color-verdeoscuro: #568005;
+    --color-verde: #96C11F;
+    --color-testimonios: #f1ebdc;}
+/* Inicio de Navbar*/
+.navbar, img {
+    width: 2em;
+    background: none;
+    background-color: none;
+}
+
+.navbar-nav .nav-link   {
+    font-family: "Coustard", system-ui;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+.navbar-brand, a {
+    font-family: "Coustard", system-ui;
+    font-style: normal;   
+}
+.navbar-nav .nav-link.active {
+    color: #568005 !important; 
+    font-weight: bold; 
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000; 
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #4aaac0; /* Cambia el color al pasar el ratón sobre el enlace */
+  }
+/* Fin de Navbar*/
+/*Inicio de contenedor de carrusel*/
+.container_uno, h1 {
+    font-family: "Coustard", system-ui;
+    font-style: normal;  
+}
+.actividades_verdes {
+    color: var(--color-verdeoscuro);
+    font-family: "Coustard", system-ui;
+    font-style: normal;  
+}
+.contenedor_texto{
+    display: flex;
+    flex-direction: column; 
+    margin-right: 15px; 
+}
+.coustard {
+    font-family: "Coustard", system-ui;
+    font-style: normal;   
+}
+.carousel-caption h5,
+  .carousel-caption p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 6); 
+  }
+.carousel_indicadores li {
+    border-radius: 50%; 
+    width: 12px; 
+    height: 12px; 
+    border: 2px solid #568005; 
+  }
+.verdeoscuro{
+color: #568005;
+  }
+/*Final de contenedor de carrusel*/
+@keyframes escalar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animacion {
+  animation: escalar 3s ease-in-out infinite;
+  object-fit: cover;
+  .filtro-contraste {
+  filter: contrast(120%); /* Ajusta el valor para más o menos contraste */
+  }
+  
+}
+
+/*Contenedor dos*/
+.container_dos, h2 {
+    font-family: "Coustard", system-ui;
+    font-style: normal;  
+}
+.gris {
+    color: #8B8B8B;
+}
+.btn-inscribirse {
+    background-color: #4aaac0;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    border: none; 
+    font-family: "Coustard", system-ui;
+    font-style: normal; 
+    font-size: 1.5rem;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    text-decoration: none;
+  }
+.btn-inscribirse h2 {
+    margin: 0;
+    font-family: "Coustard", system-ui;
+    font-style: normal;  
+}
+.btn-inscribirse a {
+  color: white;
+}
+.borde-redondo {
+    border-radius: 50px 0 50px 0 ; 
+}
+.blanco {
+    background-color: white;
+    border-radius: 118px 0 118px 0 ; 
+    margin-top: 70px;
+    margin-top: 70px;
+}
+/*footer*/
+.footer {
+    background-color: #3e2723; 
+    padding: 20px 0;
+    color: white;
+    margin-top: 70px;
+  }
+  .footer .contenedor img {
+    max-width: 70px; 
+    max-height: 70px; 
+    margin: 0 10px; 
+  }
+  .footer .contenedor-dos {
+    margin-top: 10px; 
+  }
+  .footer .contenedor-dos .nav-item {
+    margin: 0 10px; 
+  }
+  .footer .contenedor-tres {
+    margin-top: 10px; 
+    font-size: 0.875rem; 
+  }
+  .footer ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: space-between; 
+}
+.footer .nav-link:hover {
+    color: #4aaac0; 
+  }
+
+.cafeo{
+    background-color: #211513;
+    color: white;
+    margin-top: -1px;
+}
